@@ -10,8 +10,8 @@ import java.io.PrintWriter;
 
 @WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
-	@Override protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		PrintWriter out = resp.getWriter();
+	@Override protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		PrintWriter out = response.getWriter();
 		out.print("<h1>Hello World!</h1>");
 	}
 }
