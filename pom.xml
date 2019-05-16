@@ -8,7 +8,7 @@
     <artifactId>javaweb_nextstep</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <tomcat.version>8.5.23</tomcat.version>
+        <tomcat.version>8.5.40</tomcat.version>
     </properties>
     <dependencies>
         <dependency>
