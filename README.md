@@ -9,3 +9,4 @@
 * 서블릿의 한계를 (동적 html)를 극복하기 위해 등장한 것이 jsp
 * JSP의 복잡도가 증가하면서 한계를 극복하기 위해 등장한 기술이 JSTL(JavaServer Pages Standard Tag Library)와 EL(Expression Language)
 * 프론터 컨트롤러 패턴 : DispatcherServlet 처럼 각 컨트롤러의 앞에 모든 요청을 받아 작업을 위하는 방식
+* 포워딩과 리다이렉트 : https://sdevstudy.tistory.com/26
